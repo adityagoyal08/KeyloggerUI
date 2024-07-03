@@ -44,9 +44,26 @@ python keylog.py
 2. Use the interface to start and stop the keylogger.
 3. The keystrokes will be logged into a JSON file named `log.txt` in the project directory.
 
+## UI interface
+
+*The Login interface*
+
+![image](https://github.com/eddyhacks/KeyloggerUI/assets/88126377/c7e489ff-d304-4467-a8cd-ec70eb260014)
+
+*The start screen*
+
+![image](https://github.com/eddyhacks/KeyloggerUI/assets/88126377/b557ed34-9f6d-40b1-8d78-d7cfb33d1739)
+
+
 ## Example
 
 Here's an example of what the JSON output file (`log.txt`) might look like:
+
+![image](https://github.com/eddyhacks/KeyloggerUI/assets/88126377/a70cc206-6bc0-40f6-a48d-8b02a35afbf6)
+
+## Close the application
+
+`To close the application from running press ESC`
 
 ## Contributing
 
