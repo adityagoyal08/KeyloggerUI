@@ -36,7 +36,7 @@ def Login():
         e = email.get()
         p = password.get() 
 
-        if e == '' and p == "" :
+        if e == 'user' and p == "password" :
             root = tk.Tk()
             root.geometry('500x400')
 
@@ -86,14 +86,14 @@ h1.place(x=150,y=5)
 #logo.place(x=150,y=38)
 
 
-e = Label(root,text="KPIN",font= ('verdana',10,'bold'))
+e = Label(root,text="Username",font= ('verdana',10,'bold'))
 e.place(x=100,y=130)
 email = Entry(root,width=30,relief=RIDGE,borderwidth=3)
 email.place(x=100,y=150)
 
 
 
-p = Label(root,text="high secuirty PIN",font= ('verdana',10,'bold'))
+p = Label(root,text="Password",font= ('verdana',10,'bold'))
 p.place(x=100,y=190)
 password = Entry(root,width=30,relief=RIDGE,borderwidth=3)
 password.place(x=100,y=210)
