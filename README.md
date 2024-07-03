@@ -19,6 +19,8 @@ You can install the required libraries using pip:
 
 ```bash
 pip install pynput
+pip install tk
+pip install pillow
 ```
 
 ### Installation
